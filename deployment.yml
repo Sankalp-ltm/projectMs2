@@ -16,5 +16,5 @@ spec:
         app: tomcat
     spec:
       containers:
-      - image: public.ecr.aws/u4d5k6s6/milestone2:latest
+      - image: public.ecr.aws/u4d5k6s6/milestone2:${BUILD_NUMBER}
         name: milestone2
